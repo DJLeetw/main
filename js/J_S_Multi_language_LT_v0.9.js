@@ -76,7 +76,7 @@ function changeNavBarUIWording(lang_index){
   //更改Drondown UI 語系顯示
   //document.getElementById('lang_btn_1').innerHTML = Multi_Lang_Wording[lang_index];
 
-  document.getElementById('change_dropdown_title').innerHTML =  Multi_Lang_Wording[lang_index]+'<b class="caret"></b>';
+  document.getElementById('change_dropdown_title').innerHTML =  Multi_Lang_Wording[lang_index];
 
   return;
 }
@@ -225,9 +225,9 @@ Multi_Lang_Tag[2]="jp";
 
 //Multi_Lang_Wording 供介面顯示
 Multi_Lang_Wording = new Array();
-Multi_Lang_Wording[0]="TW - 繁體中文";
-Multi_Lang_Wording[1]="EN - English";
-Multi_Lang_Wording[2]="JP - 日本語";
+Multi_Lang_Wording[0]="TW - 繁體中文 ▼";
+Multi_Lang_Wording[1]="EN - English ▼";
+Multi_Lang_Wording[2]="JP - 日本語 ▼";
 
 
 //多語系網頁Title招呼語 (顯示在瀏覽TAB上)
